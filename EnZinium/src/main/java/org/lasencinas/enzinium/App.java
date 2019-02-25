@@ -169,7 +169,7 @@ public class App {
          * Lanza una EXCEPCION si no se cumple la condicion
          */
 
-/*        System.out.println("\n" + "Transferencia de entradas" + "\n" + 
+        System.out.println("\n" + "Transferencia de entradas" + "\n" + 
                                   "========================="        );
 
         ricknillos.transfer(morty.getPK(), 2d);
@@ -214,7 +214,7 @@ public class App {
          * @param cantidad de tokens
          */
 
-/*        System.out.println("\n" + "Reventa de entradas" + "\n" + 
+        System.out.println("\n" + "Reventa de entradas" + "\n" + 
                                   "==================="        );
         
         ricknillos.transfer(morty.getPK(), jen.getPK(), 1d);
@@ -239,7 +239,7 @@ public class App {
          *         y el numero de tokens que han adquirido
          */
 
-/*        System.out.println("\n" + "Lista de compradores" + "\n" + 
+        System.out.println("\n" + "Lista de compradores" + "\n" + 
                                   "===================="        );
         ricknillos.owners();
         
@@ -251,7 +251,7 @@ public class App {
          * @return numero de tokens (entradas) vendidos
          */
 
-/*        System.out.println("\n" + "Total de asistentes: " 
+        System.out.println("\n" + "Total de asistentes: " 
                                     + ricknillos.totalTokensSold() + "\n");
 
         

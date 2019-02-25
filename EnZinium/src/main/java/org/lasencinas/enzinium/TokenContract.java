@@ -95,6 +95,24 @@ public class TokenContract {
         return getSymbol();
     }
     
+    public void transfer(PublicKey recipient, Double units) {
+        
+    }
+    
+    public void transfer(PublicKey sender, PublicKey recipient, Double units) {
+        
+    }
+    
+    public void owners() {
+        for (Map.Entry<PublicKey, Double> lista : balances.entrySet()) {
+            System.out.print("Owner: "+ lista.getKey().hashCode() + " " + "has" + " " + lista.getValue().hashCode() + " " + symbol);
+        }
+    }
+    
+    public int totalTokensSold() {
+        return 4;
+    }
+    
 }
 
 
