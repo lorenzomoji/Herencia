@@ -69,7 +69,9 @@ public class TokenContract {
     
     
     public void addOwner(PublicKey PK, Double units) {
-        balances.put(PK, units);
+        if (units <= 100) {
+            balances.put(PK, units);
+        }    
     }
     
     public double totalSupply() {
@@ -81,7 +83,12 @@ public class TokenContract {
     }
     
     public Double balanceOf(PublicKey owner) {
-        return this.balances.get(owner);
+        if (balances.get(owner) != null) {
+            return this.balances.get(owner);
+        }
+        else {
+            return 0d;
+        }
     }
     
     public String symbol() {
