@@ -135,7 +135,7 @@ public class App {
          * Dada una direccion, devuelve su balance de tokens. Si no existe 
          * el propietario, devuelve cero.
          */
-/*        System.out.println("\n" + "Consulta de balances" + "\n" + 
+        System.out.println("\n" + "Consulta de balances" + "\n" + 
                                   "===================="        );
 
         System.out.println("\n" + "Numero de propietarios: " + ricknillos.numOwners());

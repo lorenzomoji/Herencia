@@ -37,7 +37,7 @@ public class TokenContract {
     }
     
     public String getSymbol() {
-        return symbol;
+        return this.symbol;
     }
     
     public void setTotalSupply(double totalSupply) {
@@ -75,6 +75,19 @@ public class TokenContract {
     public double totalSupply() {
         return getTotalSupply();
     }
+    
+    public int numOwners() {
+        return balances.size();
+    }
+    
+    public Double balanceOf(PublicKey owner) {
+        return this.balances.get(owner);
+    }
+    
+    public String symbol() {
+        return getSymbol();
+    }
+    
 }
 
 
