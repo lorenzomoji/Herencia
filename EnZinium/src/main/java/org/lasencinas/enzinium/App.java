@@ -89,7 +89,7 @@ public class App {
          * @return el total de unidades de este token que actualmente existen.
          */
 
-/*        TokenContract ricknillos = new TokenContract(rick);
+        TokenContract ricknillos = new TokenContract(rick);
         ricknillos.setName("Ricknillos");
         ricknillos.setSymbol("RNiLL");
         ricknillos.setTotalSupply(100);
@@ -119,7 +119,7 @@ public class App {
          * @param cantidad de tokens que posee
          */
 
-/*        ricknillos.addOwner(rick.getPK(), ricknillos.totalSupply());
+        ricknillos.addOwner(rick.getPK(), ricknillos.totalSupply());
         // verifica que Rick no se actualiza una vez que ya existe en el balance
         ricknillos.addOwner(rick.getPK(), 500d);
         

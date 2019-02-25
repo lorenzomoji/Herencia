@@ -10,7 +10,7 @@ public class Address {
     //ATRIBUTOS
     private PublicKey PK;
     private PrivateKey SK;
-    private double balance = 0d;
+    private Double balance = 0d;
     private String symbol = "EZI";
     
     //CONSTRUCTOR
@@ -34,7 +34,7 @@ public class Address {
         return this.SK;
     }
         
-    public double getBalance() {
+    public Double getBalance() {
         return balance;
     }
     
@@ -54,6 +54,8 @@ public class Address {
     public String toString() {
         return "\n" + "PK = " + getPK().hashCode() + "\n" +
                 "Balance = " + getBalance() + " " + getSymbol() + "\n";
-    }    
+    } 
+    
+    
    
 }
